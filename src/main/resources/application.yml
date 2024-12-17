@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ip-query-service
+  r2dbc:
+    url: r2dbc:postgresql://ep-little-credit-a5igu90d-pooler.us-east-2.aws.neon.tech:5432/neondb?sslmode=require
+    username: neondb_owner
+    password: iJW9k5QERrhy
+  contentmoderator:
+    token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Imp1bGlvLnF1aXNwZUB2YWxsZWdyYW5kZS5lZHUucGUifQ.6M-P2QMMvKFZEeMvTUXvkOooM02N_pWqt0OdlaYW3PM

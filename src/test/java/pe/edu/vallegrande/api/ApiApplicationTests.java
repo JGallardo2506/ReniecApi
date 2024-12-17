@@ -1,10 +1,10 @@
-package pe.edu.vallegrande.reniec;
+package pe.edu.vallegrande.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ReniecApplicationTests {
+class ApiApplicationTests {
 
 	@Test
 	void contextLoads() {
