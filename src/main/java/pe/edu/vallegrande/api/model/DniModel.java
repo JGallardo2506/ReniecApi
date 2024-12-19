@@ -24,7 +24,10 @@ public class DniModel {
     private String apellidoMaterno; // Apellido materno del usuario
 
     @Column("codVerifica")
-    private String codVerifica; // Código de verificación
+    private Integer codVerifica; // Código de verificación (cambiado a Integer)
+
+    @Column("codVerificaLetra")
+    private String codVerificaLetra; // Letra del código de verificación
 
     @Column("status")
     private String status; // A o I

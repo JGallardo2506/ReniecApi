@@ -3,10 +3,10 @@ server:
 
 spring:
   application:
-    name: ip-query-service
+    name: jose
   r2dbc:
-    url: r2dbc:postgresql://ep-little-credit-a5igu90d-pooler.us-east-2.aws.neon.tech:5432/neondb?sslmode=require
-    username: neondb_owner
-    password: iJW9k5QERrhy
+    url: r2dbc:postgresql://ep-dry-feather-a50464ji.us-east-2.aws.neon.tech:5432/jose?sslmode=require
+    username: JG-ChatBot_owner
+    password: Qbr4YsUfdz6R
   contentmoderator:
-    token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Imp1bGlvLnF1aXNwZUB2YWxsZWdyYW5kZS5lZHUucGUifQ.6M-P2QMMvKFZEeMvTUXvkOooM02N_pWqt0OdlaYW3PM
+    token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Impvc2UucXVpc3BlMjUwNjIyQGdtYWlsLmNvbSJ9.5P6P6RLYbWPKtSvhXOhx1jdcExvxhA82GJmkg9rNiPg
